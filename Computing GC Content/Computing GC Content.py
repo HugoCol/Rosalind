@@ -12,8 +12,6 @@ def file_reader(file):
     """
     dict = {}
     # if a line starts with a > it is a header and should be a key
-    # file.readlines()
-    # file = file.readlines()
     file = file.readlines()
 
     for line in file:
